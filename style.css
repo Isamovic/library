@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #94a3b8;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.library {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header {
+  padding-bottom: 40px;
+}
+.add-btn,
+.submit {
+  border: solid thin;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #fcd34d;
+  padding: 10px 30px;
+  display: grid;
+  justify-content: center;
+}
+
+.form {
+  border: solid thin;
+  border-radius: 7px;
+  width: 700px;
+  height: 600px;
+  background-color: #8b5cf6;
+
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.data {
+  padding: 30px 30px;
+  display: grid;
+  grid-template-columns: 0.3fr;
+  justify-content: center;
+}
+
+.title-form {
+  padding: 30px 20px;
+  text-align: center;
+  color: #9f1239;
+  font-weight: bold;
+}
+
+.bottom-form {
+  padding: 30px 20px;
+}
+
+.book-container {
+  border: solid;
+  border-radius: 7px;
+  padding: 15px 15px;
+  background-color: #e9d5ff;
+  display: grid;
+  gap: 50px;
+}
+
+/* booklist */
+
+.container {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0.3fr));
+  padding: 50px 70px;
+}
+
+img {
+  width: 25px;
+}
+
+.update,
+.delete {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.cont-bottom,
+.cont-top {
+  display: grid;
+  gap: 30px;
+}
+
+.cont-top {
+  border-bottom: solid thin;
+  padding-bottom: 30px;
+}
+
+.hidden {
+  display: none;
+}
